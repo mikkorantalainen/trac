@@ -1093,7 +1093,7 @@ msgstr "Muokkaa tavoitetta:"
 #: trac/admin/templates/admin_milestones.html:82
 #: trac/ticket/templates/milestone_edit.html:59
 msgid "Due:"
-msgstr "Tehtävä ennen:"
+msgstr "Määräaika:"
 
 #: trac/admin/templates/admin_milestones.html:26
 #: trac/admin/templates/admin_milestones.html:29
@@ -1135,7 +1135,7 @@ msgstr "Muoto: %(datetimehint)s"
 
 #: trac/admin/templates/admin_milestones.html:101 trac/ticket/admin.py:399
 msgid "Due"
-msgstr "Tehtävä ennen"
+msgstr "Määräaika"
 
 #: trac/admin/templates/admin_milestones.html:101 trac/ticket/admin.py:399
 msgid "Completed"
@@ -2635,11 +2635,11 @@ msgstr "Viallinen tavoitteen nimi"
 
 #: trac/ticket/model.py:1069
 msgid "Open (by due date)"
-msgstr "Avoin (tehtävä ennen -päivän mukaan)"
+msgstr "Avoin (määräajan mukaan)"
 
 #: trac/ticket/model.py:1070
 msgid "Open (no due date)"
-msgstr "Avoin (ei tehtävä ennen -päivää)"
+msgstr "Avoin (ei määräaikaa)"
 
 #: trac/ticket/model.py:1073
 msgid "Closed"
@@ -3343,7 +3343,7 @@ msgstr "Määräaikaan %(duration)s (%(date)s)"
 #: trac/ticket/templates/milestone_view.html:41
 #: trac/ticket/templates/roadmap.html:56
 msgid "No date set"
-msgstr "(ei määriteltyä aikaa)"
+msgstr "(ei määräaikaa)"
 
 #: trac/ticket/templates/milestone_view.html:51
 #, python-format
