@@ -940,7 +940,7 @@ msgstr "Omistaja:"
 
 #: trac/admin/templates/admin_components.html:35
 msgid "Modify Component:"
-msgstr "Muokkaa komponettia:"
+msgstr "Muokkaa komponenttia:"
 
 #: trac/admin/templates/admin_components.html:42
 msgid ""
@@ -1239,7 +1239,7 @@ msgstr "Lisenssi:"
 #: trac/admin/templates/admin_plugins.html:102 trac/ticket/admin.py:75
 #: trac/ticket/api.py:296
 msgid "Component"
-msgstr "Komponetti"
+msgstr "Komponentti"
 
 #: trac/admin/templates/admin_plugins.html:105
 msgid "Show all descriptions"
@@ -2018,11 +2018,11 @@ msgstr "Virhe"
 
 #: trac/templates/error.html:65
 msgid "Create"
-msgstr "Luo"
+msgstr "luo uusi vikaraportti"
 
 #: trac/templates/error.html:80
 msgid "Oops…"
-msgstr "Oho..."
+msgstr "Nyt kävi ikävästi..."
 
 #: trac/templates/error.html:82
 msgid "Trac detected an internal error:"
@@ -2048,7 +2048,7 @@ msgstr "Toiminto, joka aiheutti virheen oli:"
 
 #: trac/templates/error.html:102
 msgid "This is probably a local installation issue."
-msgstr ""
+msgstr "Ongelma johtuu todennäköisesti asennuksessa olevasta virheestä."
 
 #: trac/templates/error.html:103
 #, python-format
@@ -2059,7 +2059,7 @@ msgstr ""
 
 #: trac/templates/error.html:109
 msgid "Found a bug in Trac?"
-msgstr "Löysitkö bugin Tracissa?"
+msgstr "Löysitkö vian Trac-järjestelmässä?"
 
 #: trac/templates/error.html:110
 msgid ""
@@ -2067,7 +2067,7 @@ msgid ""
 "              you should consider creating a bug report."
 msgstr ""
 "Jos tämän toiminnon pitäisi onnistua ja onnistut toistamaan ongelman,\n"
-"              suosittelemme tekemään uuden bugiraportin."
+"              suosittelemme tekemään uuden vikaraportin."
 
 #: trac/templates/error.html:113
 #, python-format
@@ -2093,16 +2093,13 @@ msgid ""
 "                [3:mailing list]\n"
 "                instead of creating a ticket."
 msgstr ""
-"Ennen kuin teet sen, kokeile ensin hakua\n"
-"                \n"
-"[1:[2:searching]\n"
-"                for similar issues]                vastaavien ongelmien "
+"Ennen kuin teet sen, kokeile ensin \n"
+"[1:[2:hakua vastaavien ongelmien ]] "
 "löytämiseksi, koska joku\n"
-"                muu on jo voinut ilmoittaa ongelmasta. Jos sinulla on "
+"                muu on jo voinut ilmoittaa samasta ongelmasta. Jos sinulla on "
 "kysymyksiä\n"
 "                Tracin asentamisesta tai asetuksista niin ota yhteyttää "
-"postilistaan\n"
-"                [3:mailing list]\n"
+"                [3:Trac-kehittäjien sähköpostilistaan]\n"
 "                uuden ongelmalipun luomiseen sijaan."
 
 #: trac/templates/error.html:131
@@ -2111,10 +2108,11 @@ msgid ""
 "Otherwise, please %(create)s a new bug report\n"
 "                describing the problem and explain how to reproduce it."
 msgstr ""
+"Jos muu ei auta niin %(create)s (toiminto liittää raportin pohjaksi järjestelmän automaattisesti keräämät tiedot). Muista ongelman kuvauksen lisäksi erityisesti listata ohjeet ongelman toistamiseksi (selitä askel askeleelta, kuinka muut voivat saada saman virheen aikaiseksi). Kirjoita ongelman kuvaus englanniksi."
 
 #: trac/templates/error.html:135
 msgid "Python Traceback"
-msgstr "Python Traceback"
+msgstr "Python Traceback (Python-ohjelman virheenjäljitystiedot)"
 
 #: trac/templates/error.html:136
 msgid "Most recent call last:"
@@ -2151,7 +2149,7 @@ msgstr "Järjestelmän tiedot:"
 
 #: trac/templates/error.html:186
 msgid "Enabled Plugins:"
-msgstr "Päälle kytkytyt liitännäiset:"
+msgstr "Päälle kytketyt liitännäiset:"
 
 #: trac/templates/error.html:202
 msgid "TracGuide"
@@ -2335,7 +2333,7 @@ msgstr "Komponentti %(name)s on jo olemassa."
 
 #: trac/ticket/admin.py:124
 msgid "No component selected"
-msgstr "Komponettia ei ole valittu."
+msgstr "Komponenttia ei ole valittu."
 
 #: trac/ticket/admin.py:132
 msgid "The selected components have been removed."
@@ -2839,7 +2837,7 @@ msgstr "Kyselyn parametri \"sort=%(sort_col)s\" on viallinen"
 
 #: trac/ticket/roadmap.py:205
 msgid "ticket status"
-msgstr "lipun tila"
+msgstr "lippujen tilan"
 
 #: trac/ticket/roadmap.py:205
 msgid "tickets"
@@ -2955,7 +2953,7 @@ msgstr[1] "%(labels)s muutettu"
 #: trac/ticket/web_ui.py:348
 #, python-format
 msgid "Ticket %(ticketref)s (%(summary)s) %(verb)s"
-msgstr "Lippu %(ticketref)s (%(summary)s) %(verb)s"
+msgstr "Lippu %(ticketref)s \"%(summary)s\" %(verb)s"
 
 #: trac/ticket/web_ui.py:503
 #, python-format
@@ -3350,7 +3348,7 @@ msgstr "(ei määriteltyä aikaa)"
 #: trac/ticket/templates/milestone_view.html:51
 #, python-format
 msgid "%(stat_title)s by"
-msgstr ""
+msgstr "%(stat_title)s luokittelu:"
 
 #: trac/ticket/templates/milestone_view.html:65
 msgid "(none)"
@@ -4266,7 +4264,7 @@ msgid ""
 "Unsupported version control system \"%(name)s\": Can't find an appropriate "
 "component, maybe the corresponding plugin was not enabled? "
 msgstr ""
-"Tuntematon versionhallintajärjestelmä \"%(name)s\": tarvittavaa komponettia ei "
+"Tuntematon versionhallintajärjestelmä \"%(name)s\": tarvittavaa komponenttia ei "
 "löydy - ehkä tarvittavaa liitännäistä ei ole otettu käyttöön?"
 
 #: trac/versioncontrol/api.py:698
@@ -4893,15 +4891,15 @@ msgstr "(loki)"
 
 #: trac/versioncontrol/templates/revisionlog.html:23
 msgid "Revision Log Mode:"
-msgstr "Versiohistorian tila:"
+msgstr "Versiohistorian näyttötila:"
 
 #: trac/versioncontrol/templates/revisionlog.html:27
 msgid "Stop on copy"
-msgstr "Pysähdy kopioon"
+msgstr "Pysähdy ensimmäiseen kopioon"
 
 #: trac/versioncontrol/templates/revisionlog.html:33
 msgid "Follow copies"
-msgstr "Seuraa kopioita"
+msgstr "Näytä myös kopioidun sisällön historia"
 
 #: trac/versioncontrol/templates/revisionlog.html:39
 msgid "Show only adds and deletes"
@@ -4919,11 +4917,11 @@ msgid ""
 "            ]"
 msgstr ""
 "[1:\n"
-"              Näytä loki aloittaen päivästä\n"
+"              Näytä loki aloittaen versiosta\n"
 "              [2:]\n"
 "            ]\n"
 "            [3:\n"
-"              taaksepäin\n"
+"              taaksepäin versioon\n"
 "              [4:]\n"
 "            ]"
 
@@ -5187,8 +5185,8 @@ msgstr "Tietovaraston muutokset"
 #, python-format
 msgid "Changeset in %(repo)s "
 msgid_plural "Changesets in %(repo)s "
-msgstr[0] "Muutos tietovarastossa %(repo)s "
-msgstr[1] "Muutokset tietovarastossa %(repo)s "
+msgstr[0] "Muutos tietovarastossa %(repo)s: "
+msgstr[1] "Muutokset tietovarastossa %(repo)s: "
 
 #: trac/versioncontrol/web_ui/changeset.py:1015
 msgid "Changeset "
@@ -5663,12 +5661,12 @@ msgstr "Wikin muutokset"
 #: trac/wiki/web_ui.py:712
 #, python-format
 msgid "%(page)s edited"
-msgstr "%(page)s muokattu"
+msgstr "Sivua %(page)s muokattu"
 
 #: trac/wiki/web_ui.py:714
 #, python-format
 msgid "%(page)s created"
-msgstr "%(page)s luotu"
+msgstr "Sivu %(page)s luotu"
 
 #: trac/wiki/templates/wiki_delete.html:19
 #, python-format
