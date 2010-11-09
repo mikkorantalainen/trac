@@ -81,7 +81,7 @@ def main(filename, show_ops=False, show_perms=False):
     digraph_lines = actions2graphviz(actions, show_ops, show_perms)
 
     # And output
-    sys.stdout.write('\n'.join(digraph_lines))
+    sys.stdout.write('\n'.join(digraph_lines).encode('utf-8','ignore'))
 
 def usage(output):
     output.write('workflow_parser [options] configfile.ini\n'
