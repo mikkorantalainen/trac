@@ -535,7 +535,8 @@ msgstr ""
 "Interaktiivinen Trac ylläpitokonsoli.\n"
 "Copyright (c) 2003-2010 Edgewall Software\n"
 "\n"
-"Kirjoita:  '?' tai 'help' saadaksesi ohjeita.\n"
+"Kirjoita  '?' tai 'help' saadaksesi ohjeita.\n"
+"Kirjoita 'exit' tai paina CTRL+D lopettaaksesi.\n"
 "Komennot tulee kirjoittaa englanniksi."
 
 #: trac/admin/console.py:164
@@ -565,8 +566,10 @@ msgstr ""
 
 #: trac/admin/console.py:305
 msgid "Invoking trac-admin without command starts interactive mode.\n"
-msgstr "Komennon trac-admin suorittaminen ilman komentoa käynnistää interaktiivisen "
-"tilan.\n"
+msgstr "Komennon trac-admin suorittaminen ilman komentoa käynnistää \n"
+"interaktiivisen tilan (huomaa, että polku ympäristöön on pakollinen).\n"
+"\n"
+"Mahdolliset komennot ilman olemassa olevaa ympäristöä:\n"
 
 #: trac/admin/console.py:345
 #, python-format
@@ -607,8 +610,8 @@ msgstr ""
 " Määrittele tietokannan yhteysmerkkijono.\n"
 " Oletuksena käytetään paikallista SQLite-tietokantaa projektin\n"
 " hakemistossa. Voit myös käyttää jo olemassa olevaa\n"
-" PostgreSQL-tietokantaa (tarkat ohjeet löytyvät Trac-järjestelmän\n"
-" ohjeista).\n"
+" PostgreSQL-tietokantaa (tarkat toimintaohjeet löytyvät\n"
+" Trac-järjestelmän ohjeista).\n"
 
 #: trac/admin/console.py:365
 #, python-format
@@ -700,19 +703,19 @@ msgid ""
 msgstr ""
 "\n"
 "---------------------------------------------------------------------\n"
-"Ympäristö projektille on '%(project_name)s' nyt luotu.\n"
+"Ympäristö projektille '%(project_name)s' on nyt luotu.\n"
 "\n"
 "Voit muuttaa ympäristön asetuksia muokkaamalla tiedostoa:\n"
 "\n"
 "  %(config_path)s\n"
 "\n"
 "Jos haluat testata uutta ympäristöä,\n"
-"voit tehdä sen 'tracd'-komennon avulla:\n"
+"voit tehdä sen komennon 'tracd' avulla:\n"
 "\n"
-"  tracd --port 8000 %(project_path)s\n"
+"  tracd --port 8000 --host localhost %(project_path)s\n"
 "\n"
-"Ympäristö löytyy osoitteesta http://localhost:8000/%(project_dir)s.\n"
-"Samasta osoitteesta löytyy asennetun Trac-version ohjeet,\n"
+"Ympäristö löytyy sen jälkeen osoitteesta http://localhost:8000/%(project_dir)s.\n"
+"Samasta osoitteesta löytyy asennetun Trac-version käyttöohjeet,\n"
 "sisältäen ohjeet myös Trac-ympäristön ajamiseksi toisen www-palvelimen\n"
 "kautta.\n"
 "\n"
@@ -720,7 +723,7 @@ msgstr ""
 "\n"
 "  http://trac.edgewall.org/\n"
 "\n"
-"Onnittelut!\n"
+"Onnea matkaan!\n"
 
 #: trac/admin/console.py:543
 #, python-format
