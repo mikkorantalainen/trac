@@ -47,7 +47,7 @@ def actions2graphviz(actions, show_ops=False, show_perms=False):
     # The size value makes it easier to create a useful printout.
     color_scheme = ColorScheme()
     digraph_lines = ["""
-digraph G {
+digraph "Workflow visualization" {
   center=1
   size="10,8"
   { rank=source; new [ shape=invtrapezium ] }
