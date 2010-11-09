@@ -29,5 +29,5 @@ if [ "$OSTYPE" = cygwin ]; then
     cmd /c start $png
 else
     dot -T ps -o "$ps" "$dot" && ps2pdf "$ps" "$pdf" || exit 1
-    kpdf "$pdf"
+    xdg-open "$pdf"
 fi
