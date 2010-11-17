@@ -2548,7 +2548,7 @@ msgstr ": %(owner)s"
 #: trac/ticket/default_workflow.py:255 trac/ticket/default_workflow.py:275
 #, python-format
 msgid "The owner will be changed from %(current_owner)s"
-msgstr "Entinen omistaja on %(current_owner)s"
+msgstr "Oli %(current_owner)s"
 
 #: trac/ticket/default_workflow.py:263
 #, python-format
@@ -2758,7 +2758,7 @@ msgstr "[Virhe: %(error)s]"
 
 #: trac/ticket/query.py:1291
 msgid "No results"
-msgstr "Ei tuloksia"
+msgstr "(ei tuloksia)"
 
 #: trac/ticket/query.py:1309
 #, python-format
@@ -3184,7 +3184,7 @@ msgstr "Lisää/Poista CC-listalta"
 
 #: trac/ticket/web_ui.py:1395
 msgid "<Author field>"
-msgstr "<Author field>"
+msgstr "(Tekijä-kentän arvo)"
 
 #: trac/ticket/web_ui.py:1416 trac/ticket/templates/query.html:103
 msgid "yes"
@@ -3479,7 +3479,7 @@ msgstr "Järjestele kentän %(col)s mukaisesti %(direction)s"
 
 #: trac/ticket/templates/query_results.html:45
 msgid "No tickets found"
-msgstr "Lippuja ei löydetty"
+msgstr "Lippuja ei löytynyt"
 
 #: trac/ticket/templates/query_results.html:59
 #: trac/ticket/templates/query_results.html:62
@@ -5029,7 +5029,7 @@ msgstr "(tuloksen tuotti Trac %(version)s)"
 
 #: trac/versioncontrol/web_ui/browser.py:296
 msgid "Browse Source"
-msgstr "Selaa koodia"
+msgstr "Koodin katselu"
 
 #: trac/versioncontrol/web_ui/browser.py:373
 msgid "Invalid changeset number"
@@ -5782,7 +5782,7 @@ msgstr ""
 
 #: trac/wiki/templates/wiki_edit.html:124
 msgid "Go to the editor"
-msgstr ""
+msgstr "Siirry editoriin"
 
 #: trac/wiki/templates/wiki_edit.html:127
 #: trac/wiki/templates/wiki_edit_form.html:74
@@ -5791,7 +5791,7 @@ msgstr "Näytä muutokset"
 
 #: trac/wiki/templates/wiki_edit.html:129
 msgid "No changes"
-msgstr ""
+msgstr "Ei muutoksia"
 
 #: trac/wiki/templates/wiki_edit.html:146
 msgid ""
@@ -6304,7 +6304,7 @@ msgstr ""
 #~ "Due in %(duration)s\n"
 #~ "              (%(date)s)"
 #~ msgstr ""
-#~ "Tehtävä viimeistään %(duration)s\n"
+#~ "Määräaikaan %(duration)s\n"
 #~ "              (%(date)s)"
 
 #~ msgid "by"
