@@ -5028,7 +5028,7 @@ msgstr "(tuloksen tuotti Trac %(version)s)"
 
 #: trac/versioncontrol/web_ui/browser.py:296
 msgid "Browse Source"
-msgstr "Koodin katselu"
+msgstr "Tiedostoselain"
 
 #: trac/versioncontrol/web_ui/browser.py:373
 msgid "Invalid changeset number"
