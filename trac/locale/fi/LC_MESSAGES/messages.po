@@ -472,13 +472,12 @@ msgstr "Otsikon pituus on liian lyhyt"
 msgid ""
 "%(perm)s privileges are required to perform this operation on %(resource)s"
 msgstr ""
-"Tarvitaan oikeudet %(perm)s tämän toiminnon suorittamiseksi kohteeseen %"
-"(resource)s"
+"Tämän toiminnon suorittamiseen tarvitaan oikeus %(perm)s. Kohde on %(resource)s."
 
 #: trac/perm.py:50
 #, python-format
 msgid "%(perm)s privileges are required to perform this operation"
-msgstr "Tarvitaan oikeudet %(perm)s tämän toiminnon suorittamiseksi"
+msgstr "Tämän toiminnon suorittamiseksi tarvitaan oikeus %(perm)s."
 
 #: trac/perm.py:55
 msgid "Insufficient privileges to perform this operation."
