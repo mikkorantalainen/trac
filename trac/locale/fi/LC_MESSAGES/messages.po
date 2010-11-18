@@ -3959,7 +3959,7 @@ msgstr "Tänään"
 
 #: trac/timeline/templates/timeline.html:36
 msgid "Yesterday"
-msgstr "Eilen"
+msgstr "eilen"
 
 #: trac/timeline/templates/timeline.html:42
 #, python-format
@@ -4242,7 +4242,7 @@ msgstr "polku"
 #: trac/versioncontrol/api.py:376
 #, python-format
 msgid " in %(repo)s"
-msgstr " tietovarastossa %(repo)s"
+msgstr " tiedostovarastossa %(repo)s"
 
 #. TRANSLATOR: file /path/to/file.py at version 13 in reponame
 #: trac/versioncontrol/api.py:378
@@ -5177,18 +5177,18 @@ msgstr ""
 
 #: trac/versioncontrol/web_ui/changeset.py:871
 msgid "Changesets in all repositories"
-msgstr "Muutokset kaikissa tietovarastoissa"
+msgstr "Muutokset kaikissa tiedostovarastoissa"
 
 #: trac/versioncontrol/web_ui/changeset.py:873
 msgid "Repository changesets"
-msgstr "Tietovaraston muutokset"
+msgstr "Tiedostovaraston muutokset"
 
 #: trac/versioncontrol/web_ui/changeset.py:1013
 #, python-format
 msgid "Changeset in %(repo)s "
 msgid_plural "Changesets in %(repo)s "
-msgstr[0] "Muutos tietovarastossa %(repo)s: "
-msgstr[1] "Muutokset tietovarastossa %(repo)s: "
+msgstr[0] "Muutos tiedostovarastossa %(repo)s: "
+msgstr[1] "Muutokset tiedostovarastossa %(repo)s: "
 
 #: trac/versioncontrol/web_ui/changeset.py:1015
 msgid "Changeset "
